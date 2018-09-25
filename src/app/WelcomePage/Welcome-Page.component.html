@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<h1>
+    Welcome to {{ title }}!
+</h1>
+<img width="300" alt="DogPlaceHolder" src="/assets/DogPlaceHolder.png" align="top">  
+    <p  hspace = 40>Hey there! My Name is Max, 
+    and for one reason or another you have found yourself on my website. Above all I love telling stories, and for the most part that is what you 
+    will find here but if you are just looking for my resume you might want to check here for: 
+    </p>
+    <ul style="list-style-type:square">
+            <li><a href="https://v2.overleaf.com/read/ghzxczchkfbq">My Curriculum Vitae</a></li>
+            <li><a href="https://v2.overleaf.com/read/knwzjbbjwdph">My Short Form Resume</a>
+                </li>
+    </ul>
+    <p>
+        Maybe you came for something a little bit more personal? If you did I would love to tell you a story. Below are just a few about how I
+        became some of the things I personally love - like a: 
+    </p>
+    <ul style="list-style-type:square"> 
+            <li><a [routerLink]="['/EngPage']"> Engineer </a></li>
+            <li><a [routerLink]="['/MathPage']"> Mathematician </a></li>
+            <li><a [routerLink]="['/personal']"> People Person </a></li> 
+    </ul>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>
