@@ -1,0 +1,3131 @@
+/*New Style Sheets Starts Here*/
+/* Color Palette   */
+/* Red: FE492C     */
+/* Yellow: F2D756  */
+/* Green: 6FC361   */
+/* Blue: 4D8FC3    */
+
+/*Style for the Body*/
+body
+{
+ margin: 0;
+ font: normal 76% 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ color: black;
+ line-height: 1.2em;
+ background-color: #FFFFFF;
+ font-variant: normal;
+}
+
+TABLE
+{ font-size:100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-spacing:0;
+  *border-collapse:collapse;
+}
+
+/*Hide a table row */
+tr.hiderow td, tr.hiderow th
+{
+  display:none;
+}
+
+/*Hide a table cell */
+td.hidecell
+{
+  display:none;
+}
+
+/*General Style for the Image*/
+img
+{
+ border: 0;
+ margin: 0;
+}
+
+/*Default Style for Hyperlinks*/
+a, a:visited, a:active
+{
+ color: #4D8FC3;
+}
+
+/*Style for the Plain Hyperlinks*/
+a.plainLink, a.plainLink:visited, a.plainLink:active
+{
+ font: normal 0.9em 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ color: #000000;
+ text-decoration: none;
+}
+
+/*Style for link that's usually on the bottom right of a portlet*/
+a.portletAuxLink, a.portletAuxLink:visited, a.portletAuxLink:active
+{
+ text-decoration: none;
+}
+a.portletAuxLink:hover
+{
+ text-decoration: underline;
+}
+
+A.moreLink, A.moreLink:visited, a.moreLink:active
+{
+ padding-right: 14px;
+ background: URL("../../images/pvcorporate/more_sm.gif") no-repeat right;
+ text-decoration: none;
+ color:#FE492C;
+}
+A.moreLink:hover
+{
+ text-decoration: underline;
+}
+
+textarea
+{
+  font-family: 'Microsoft Sans-Serif',Arial,Helvetica,sans-serif;
+  font-size:100%;
+  white-space: pre-wrap;
+}
+
+.taskBar
+{
+ font-size:110%;
+ margin: 0px;
+ padding: 2px 0px;
+ border: 0px;
+ border-collapse: collapse;
+ background:#FFFFFF;
+}
+
+.taskBar a:link, .taskBar a:visited, .taskBar a:hover, .taskBar a:active
+{
+ padding-right:15px;
+ text-decoration: none;
+}
+
+.taskBar a:hover
+{
+ text-decoration: underline;
+}
+
+.taskBar img
+{
+ vertical-align:middle;
+ padding-right: 2px;
+}
+
+.taskBar .arrow, .taskBar .rightOfText
+{
+ text-decoration:none;
+ padding:0;
+ margin-left:5px;
+ padding-right:2px;
+}
+
+.taskBar input
+{
+ font: normal 1em 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ color: #013545;
+ border:0;
+ width:70px;
+ padding-top:2px;
+ background-color:#FFFFFF;
+}
+
+.taskBar a:hover input
+{
+ font: normal 1em 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ text-decoration: underline;
+ color: #2B85A1;
+ border:0;
+ width:70px;
+ padding-top:2px;
+ cursor:pointer;
+}
+
+#DetailPage .taskBar
+{
+ padding: 0px 0px 5px 0px;
+}
+
+#DetailPage .taskBar TD {padding-right:10px;}
+
+#DetailPage .taskBar a:link, 
+#DetailPage .taskBar a:visited, 
+#DetailPage .taskBar a:hover, 
+#DetailPage .taskBar a:active
+{
+ padding-left:10px;
+ padding-right:3px;
+}
+
+#DetailPage .taskBar img
+{
+ margin-left:-10px;
+}
+
+#DetailPage .taskBar .arrow, #DetailPage .taskBar .rightOfText
+{
+ margin-left:-5px;
+ padding-right:2px;
+}
+
+A.backLink, A.backLink:visited, a.backLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/goback.gif") no-repeat left;
+ text-decoration: none;
+ color:#FE492C;
+}
+A.backLink:hover
+{
+ text-decoration: underline;
+}
+
+A.finishLink, A.finishLink:visited, a.finishLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/finish.gif") no-repeat left;
+ text-decoration: none;
+ color:#FE492C;
+}
+A.finishLink:hover
+{
+ text-decoration: underline;
+}
+
+A.leftFloatLink, A.leftFloatLink:visited, a.leftFloatLink:active
+{
+  padding: 0 7px 0 5px;
+  height: 21px;
+}
+A.leftFloatLink:hover
+{
+ text-decoration: underline;
+}
+A.addLink, A.addLink:visited, a.addLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/add_sm.gif") no-repeat left 40%;
+ text-decoration: none;
+}
+A.addLink:hover
+{
+ text-decoration: underline;
+}
+A.removeLink, A.removeLink:visited, a.removeLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/delete_sm.gif") no-repeat left 40%;
+ text-decoration: none;
+}
+A.removeLink:hover
+{
+ text-decoration: underline;
+}
+
+A.closeLink, A.closeLink:visited, a.closeLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/icon_close.gif") no-repeat left;
+ text-decoration: none;
+ color:#FE492C;
+}
+A.closeLink:hover
+{
+ text-decoration: underline;
+}
+
+A.aux, A.aux:visited, a.aux:active
+{
+ color:#6FC361;
+ font-size: 0.9em;
+ text-decoration: none;
+}
+
+A.aux:hover
+{
+ text-decoration: underline;
+}
+
+img.withTextLink, img.nextToText, img.leftOfText, img.rightOfText
+{
+  padding: 0 5px;
+  vertical-align: middle;  
+}
+
+img.leftOfText
+{
+  padding-left: 0;
+}
+img.rightOfText
+{
+  padding-right: 0;
+}
+img.leftMenuIcon
+{
+  width: 16px;
+  height: 16px;
+  padding: 0 2px 0 0;
+  vertical-align: middle;
+}
+
+.modalHelpLink
+{
+  padding:0 10px;
+  border-left: 1px solid #CCCAE4;
+  margin-left:15px;
+  float:right;
+  color:#333333;
+  text-decoration:none;
+  font-weight:normal;
+}
+.modalHelpLink:visited
+{
+  color:#333333;
+}
+.modalHelpLink:hover
+{
+  color:#ff5a00;
+}
+.modalHelpText
+{ 
+  background:url('../../images/pvcorporate/icon_help.gif') no-repeat left;
+  padding-left:13px;
+}
+
+/* FORMS */
+
+TH
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ color: #333333;
+ font-weight: bold;
+ background:#e1e1e1;
+ /* background: #eeeeee url("../../images/pvcorporate/breadcrumb_background.gif") repeat-x right bottom; */
+ border-top:1px solid #cccccc;
+ border-bottom:1px solid #cccccc;
+ white-space: nowrap;
+ text-align:left;
+}
+TD.heading
+{
+ padding: .3em 5px!important;
+ margin: 0;
+ color: #333333;
+ font-weight: bold;
+ background-color:#eeeeee!important;
+ border-top:1px solid #FFFFFF;
+ border-bottom:1px solid #dddddd!important;
+ white-space: nowrap;
+ text-align:left;  
+}
+
+TH A, TH A:active, TH A:visited, TH A:hover, TR.subHeader A, TH.subHeader A
+{
+ color: #333333;
+ text-decoration: underline;
+}
+
+TD.numeric, TH.numeric, TD.date, TH.date
+{
+ overflow:hidden;
+ text-align:right;
+}
+
+TD.text, TH.text
+{
+ overflow:hidden;
+ text-align:left;
+}
+
+TD.icon, TH.icon, TD.graphic, TH.graphic
+{
+ width:1%;
+ text-align:center;
+}
+
+/*Style defined for the TD used in the Header for avoiding the padding*/
+td.hdr
+{
+ padding: 0;
+}
+
+.plainText
+{
+ font-weight: normal;
+}
+
+/*Style defined for the Bold Text*/
+.boldText
+{
+ font-weight: bold;
+ color: #000000;
+}
+
+/*Style defined for the Small Text*/
+.smallText
+{
+ font-size: 0.818em;
+}
+
+/*Style defined for the Gray Text*/
+.moderateText
+{
+ color: gray;
+}
+
+/*Style defined for the Red Text*/
+.criticalText
+{
+ font-weight: normal;
+ color: #FE492C;
+ padding-right: 5px;
+}
+
+/*Style defined for the itms scheduled in project Text*/
+.scheduledInProjectText
+{
+ font-weight: normal;
+ color: #6FC361;
+ padding-right: 5px;
+}
+
+/*Style defined for the itms scheduled out of project Text*/
+.scheduledOutOfProjectText
+{
+ font-weight: normal;
+ color: gray;
+ padding-right: 5px;
+}
+
+/*Style for the TD of the Main Table Holding the Page Content*/
+.main
+{
+ padding: 0;
+}
+
+td.main
+{
+ vertical-align: top;
+}
+
+/*Style for the Table Holding the Page Content*/
+.columnLayout
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+}
+
+.columnLayout td
+{
+ padding: 0;
+ vertical-align: top;
+}
+
+/*Style defined for the scrollable DIV Tag*/
+.scrollingArea
+{
+ overflow: auto;
+ border: 1px solid #999999;
+ background-color: #F5F5F5;
+ padding: 3px;
+}
+
+/*Style defined for the DIV Tag Holding the data*/
+.dataContainer, table.dataContainer, .dataContainerTS,
+.shortDataContainer
+{
+  border-bottom: solid 1px #FFFFFF;
+  margin-bottom: 20px;
+}
+.shortDataContainer
+{
+  width: 1%;
+}
+
+.floatingRightLinks
+{
+ float: right;
+}
+
+.highlight
+{
+ background-color: #EEEEEE !important;
+}
+
+.layoutTable, /* Style defined for the Normal Table, purely for layout */
+.frmTable, /* Style defined for table containing forms */
+.dataTable, /* Style defined for the Table Containing the General Tabular Data*/
+.dataTableGrid, /* Style defined for the Table Containing the General Tabular Data with borders*/
+.dataTableGridVariance, /* Style defined for ShrinkStretch preview to requested variance*/
+.dataTableGridNoVariance, /* Style defined for ShrinkStretch preview to requested variance*/
+.shortDataTable, /* Style defined for the Table Containing the General Tabular Data*/
+.shortFrmTable, /* Style defined for Tables containing nested tables*/
+.shortAltTable,
+.altTable,
+.altTableMP,
+.tightTable,
+.notificationDataTable
+.shortLayoutTable
+{
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-spacing:0;
+ *border-collapse:collapse;
+}
+
+.layoutTable, 
+.dataTable, 
+.dataTableGrid, 
+.dataTableGridVariance, 
+.dataTableGridNoVariance, 
+.frmTable, 
+.altTable, 
+.altTableMP, 
+.notificationDataTable
+{
+ width: 100%;
+}
+
+.altTableMP TD
+{
+  padding:3px 3px;
+}
+
+.altTableMP TD.nopad
+{
+  padding:1px 0;
+}
+
+.containerBox
+{
+ padding: 3px;
+ margin: 0;
+ border: 1px solid #cccccc;
+}
+
+table.search
+{
+  -moz-box-shadow: 0px 1px 8px #838383;
+  -webkit-box-shadow: 0px 1px 8px #838383;
+  box-shadow: 0px 1px 8px #838383;
+}
+
+table.search th
+{
+  border-color: #d3d3d3 #a3a3a3;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F3F5', endColorstr='#E2E8EF');
+  background: -webkit-gradient(linear, left top, left bottom, from(#F0F3F5), to(#E2E8EF));
+  background: -moz-linear-gradient(top, #F0F3F5, #E2E8EF);
+  border-width:1px;
+  border-style:solid;
+}
+
+table.search th a
+{
+  font-weight: normal;
+  text-align: left;
+  color: #003E7E;
+  text-decoration: none;
+}
+
+table.search td
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #DFDFDF;
+  /*border-left: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  border-top: 1px solid transparent;
+  border-right: none;*/
+}
+
+.frmTable TH.leftHeaders, 
+.dataTable TH.leftHeaders,  
+.dataTableGrid TH.leftHeaders, 
+.dataTableGridVariance TH.leftHeaders, 
+.dataTableGridNoVariance TH.leftHeaders, 
+TH.containerHeader
+{
+ text-align: left;
+}
+
+.frmTable TH.rightHeaders, 
+.dataTable TH.rightHeaders, 
+.dataTableGrid TH.rightHeaders, 
+.dataTableGridVariance TH.rightHeaders, 
+.dataTableGridNoVariance TH.rightHeaders, 
+.listViewTable TH.rightHeaders, 
+.layoutTable TH.rightHeaders, 
+.containerHeaderLinks
+{
+ text-align: right;
+ font-weight: normal;
+}
+
+.frmTable TH.rightHeaders A, 
+.dataTable TH.rightHeaders A, 
+.dataTableGrid TH.rightHeaders, 
+.dataTableGridVariance TH.rightHeaders A, 
+.dataTableGridNoVariance TH.rightHeaders A, 
+.listViewTable TH.rightHeaders A, 
+.layoutTable TH.rightHeaders A,
+.containerHeaderLinks A
+{
+ border:1px solid #888888;
+ border-top-color:#999;
+ border-left-color:#999;
+ border-right-color:#444;
+ border-bottom-color:#444;
+ background:#e1e1e1 url(../../images/pvcorporate/buttonbg.gif) repeat-x top left;
+ color:#333333;
+ padding:1px 4px 1px 4px;
+ text-decoration:none;
+}
+
+.frmTable TH.rightHeaders A:hover, 
+.dataTable TH.rightHeaders A:hover, 
+.dataTableGrid TH.rightHeaders A:hover, 
+.dataTableGridVariance TH.rightHeaders A:hover, 
+.dataTableGridNoVariance TH.rightHeaders A:hover, 
+.listViewTable TH.rightHeaders A:hover, 
+.layoutTable TH.rightHeaders A:hover
+{
+ border:1px solid #FE492C;
+ background:#f1f1f1 url(../../images/pvcorporate/buttonbgd.gif) repeat-x top left;
+ color:#000000;
+ text-decoration:none;
+}
+
+.frmTable TH.rightHeaders A.aux 
+{
+  color:#6FC361;
+  font-size: 0.9em;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.frmTable TH.rightHeaders A.aux:hover 
+{
+  text-decoration: underline;
+}
+
+.frmTable TD, 
+.dataTable TD, 
+.dataTableGrid TD, 
+.dataTableGridVariance TD, 
+.dataTableGridNoVariance TD, 
+.shortDataTable TD, 
+.shortFrmTable TD, 
+.dataBlock
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ vertical-align:top;
+}
+
+.dataTableGridVariance
+{
+ color : red;
+ font-weight : bold;
+}
+
+.dataTableGridNoVariance
+{
+ color : green;
+ font-weight : bold;
+}
+
+.dataTableGrid TD
+{
+   border:1px solid #000000;   
+}
+
+.frmTable TD.gap, .dataTable TD.gap, .shortDataTable TD.gap, .shortFrmTable TD.gap
+{
+ background: #FFFFFF;
+ border:0;
+ padding:0 0 0 0;
+}
+
+.swapListTable TD
+{
+ vertical-align:middle;
+ padding-top:0;
+ padding-bottom:0;    
+}
+
+.tightTable TD
+{ padding:0;
+}
+
+.frmTable TD
+{
+ line-height: 1.7em; /* Need to have enough space for the text boxes etc. */
+}
+
+.shortFrmTable TD
+{
+ line-height: 1em;
+}
+
+.frmTable TD img, .shortFrmTable TD img
+{
+ border: 0;
+ vertical-align: -1px;
+}
+
+.frmTable TD.chk, .shortFrmTable TD.chk
+{
+ padding: 0.3em 5px 0.3em 1px;
+}
+
+.frmTable TD input, .frmTable TD select, .shortFrmTable TD input, .shortFrmTable TD select
+{
+ font-size: 1em;
+ vertical-align:middle;
+}
+
+TD .narrow, TD .medium, TD .wide, TD .xwide {font-size:1em;}
+TD input.narrow {width:10em;} /* Fits about a date-time field. */
+TD input.medium {width:20em;}
+TD input.wide, TD textarea.wide {width:28em;} /* Fits a 50-char field. */
+TD input.xwide, TD textarea.xwide {width:40em;}
+
+.formlabels 
+{
+ background:#EEEEEE;
+ border-top:1px solid white;
+ text-align:right;
+ padding-right:5px;
+ vertical-align:top;
+ border-right:2px solid #EEEEEE;
+ white-space:nowrap;
+}
+
+.formlabelsrequired
+{
+ background:#EEEEEE;
+ border-top:1px solid white;
+ text-align:right;
+ padding-right:5px;
+ vertical-align:top;
+ border-right:2px solid #FE492C;
+ white-space:nowrap;
+}
+.formlabelsrequiredlabel
+{
+ float:right;
+ text-align:right;
+ font-weight:normal;
+ font-size:90%;
+ padding-right:2px;
+ margin-right:3px;
+ border-right:2px solid #FE492C;
+}
+
+.liquid
+{
+ width:485px;
+ float:left;
+ margin:5px;
+ border:1px solid pink;
+}
+
+.liquid TABLE.frmTable {width:100%;margin:0 0 1em 0;padding:0;}
+
+.buttonrowtop, .buttonrowbottom 
+{
+ float:none;
+ clear:both;
+ width:100%;
+ padding:5px 0 5px 0;
+ margin-bottom:5px;
+ background:#f5f5f5;
+ border-bottom:1px solid #e5e5e5;
+ text-align:right;
+}
+.buttonrowbottom 
+{
+ border-top:1px solid #e5e5e5;
+ border-bottom:0;
+}
+
+.buttonrowtop input:last-of-type, .buttonrowbottom input:last-of-type
+{
+  margin-right:8px;
+}
+
+/*for showing alternating row back colors -begin*/
+.altTable TR.alternateColFirst, .shortAltTable TR.alternateColFirst
+{
+ background-color: #DDDDDD;
+}
+
+.altTable TR.alternateColSecond, .shortAltTable TR.alternateColSecond
+{
+ background-color: #F3F3F3;
+}
+
+.altTable TR.alternateColThird, .shortAltTable TR.alternateColThird
+{
+ background-color: #EAEAEA;
+}
+
+.altTable TD, .shortAltTable TD
+{
+ padding: 1px 5px;
+}
+
+.altTable TD.alternateRowFirst, .shortAltTable TD.alternateRowFirst
+{
+ background:#F3F3F3;
+ border-top:1px solid #FFFFFF;
+}
+
+.altTable TD.alternateRowFirstNoBorder, .shortAltTable TD.alternateRowFirstNoBorder
+{
+ background:#F3F3F3;
+}
+
+.altTable TD.alternateRowSecond, .shortAltTable TD.alternateRowSecond
+{
+ background-color: #EAEAEA;
+}
+
+.altTable TD.alternateRowThird, .shortAltTable TD.alternateRowThird
+{
+ background-color: #DDDDDD;
+}
+
+/* SK - This specifically targets the graph tables on the Graphical Summary By Resource page */
+.alternateRowFirst .layoutTable, .alternateRowFirstNoBorder .layoutTable, .alternateRowSecond .layoutTable, .alternateRowThird .layoutTable, .minigraph
+{
+ border:1px solid #BBBBBB;
+ margin-top:4px;
+}
+
+.altTable TD.whiteCell, .shortAltTable TD.whiteCell
+{
+ background-color: #FFFFFF;
+}
+
+.altTable TD.regularLoadCell, .shortAltTable TD.regularLoadCell
+{
+ background-color: #999999;
+}
+
+.altTable TD.combinedRegularLoadCell, 
+.shortAltTable TD.combinedRegularLoadCell
+{
+ background-color: #999999;
+}
+
+.altTable TD.approvedrReserveProfileCell, 
+.shortAltTable TD.approvedrReserveProfileCell
+{
+ background-color: #993CDA;
+}
+
+.altTable TD.requestedReserveProfileCell, 
+.shortAltTable TD.requestedReserveProfileCell
+{
+ background-color: #EBDAF3;
+}
+
+.altTable TD.approvedAllocationProfileCell, 
+.shortAltTable TD.approvedAllocationProfileCell
+{
+ background-color: #3C993C;
+}
+
+.altTable TD.requestedAllocationProfileCell, 
+.shortAltTable TD.requestedAllocationProfileCell
+{
+ background-color: #DAF3DA;
+}
+
+.altTable TD.availProfileCell, 
+.shortAltTable TD.availProfileCell
+{
+ background-color: #997A3C;
+}
+
+.altTable TD.hundredMarkerCell, .shortAltTable TD.hundredMarkerCell
+{
+ background-color: #CC0000;
+}
+
+.altTable TD.overloadedCell, .shortAltTable TD.overloadedCell
+{
+ background-color: #CC0000;
+}
+
+.altTable TD.detailRowHeader, .shortAltTable TD.detailRowHeader
+{
+ background-color: #22aadd;
+}
+
+.altTable TD.standardCell, .shortAltTable TD.standardCell
+{
+ background-color: #F5F5F5;
+}
+
+.altTable TD.baseline, .shortAltTable TD.baseline
+{
+ height:3px;
+}
+
+.altTable TD.baseline img, .shortAltTable TD.baseline img
+{
+ display:block;
+}
+.altTable TD.rankproj, TH.rankproj, 
+.shortAltTable TD.rankproj, TH.rankproj
+{
+  vertical-align:middle;
+}
+.altTable TR.alternateRowFirst, .shortAltTable TR.alternateRowFirst, .altTable TR.alternateRowFirstNoBorder, .shortAltTable TR.alternateRowFirstNoBorder
+{
+ background-color: #EEEEEE;
+}
+.altTable TR.alternateRowSecond, .shortAltTable TR.alternateRowSecond
+{
+ background-color: #DDDDDD;
+}
+.altTableMP TD.alternateRowFirst, .shortAltTableMP TD.alternateRowFirst,.altTableMP TD.alternateRowFirstNoBorder, .shortAltTableMP TD.alternateRowFirstNoBorder
+{
+ background-color: #EEEEEE;
+}
+
+#scenarioperformance .alternateRowFirst TD, #scenarioperformance .alternateRowFirstNoBorder TD, #scenarioperformance .alternateRowSecond TR TD
+{
+  width:100%;margin:0;padding:0;border:1px solid red;
+}
+
+.altTableMP TD.alternateRowSecond, .shortAltTableMP TD.alternateRowSecond
+{
+  background-color: #DDDDDD;
+}
+TD.timenow, TH.timenow
+{
+  border-left: solid 2px #FE492C;
+}
+
+/*Style defined for the .Net List View control*/
+.listViewControl
+{
+ background-color:#ffffff;
+ font-family:'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ font-size:10px;
+ border-color:#D9D9D9;
+ border-style:solid;
+ border-width: 1px 0px 1px 1px;
+ width:100%;
+}
+
+.listViewControl TR.rownormal,TD.rownormal
+{
+ background-color:#ffffff;
+}
+
+.listViewControl TR.rowalt,TD.rowalt
+{
+ background-color:#F5F8FE;
+}
+
+.listViewControl TR.summaryheadertr
+{
+ background-color:#ffffff;
+ font-weight: normal;
+ background-image:url(../../images/sum_tr_bg.gif);
+ background-repeat: repeat-x;
+}	
+
+.listViewControl TR.summaryheadertralt
+{
+ background-color:#C6C8DD;
+ font-family:'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ font-size:10px;
+}
+
+.listViewControl TH.summaryheadertd,TD.summaryheadertd
+{
+ border-color:#B1B1B1;
+ border-style:solid;
+ border-width:0px 1px 1px 0px;
+ font-size:11px;
+ font-weight: normal;
+ color:#595959;
+ padding:5px;
+}	
+
+.listViewControl TH.summaryheadertdalt,TD.summaryheadertdalt
+{
+ border-color:#B1B1B1;
+ border-style:solid;
+ border-width:0px 1px 1px 0px;
+ font-size:11px;
+ font-weight: normal;
+ color:#595959;
+ padding:0px 10px;
+}
+
+.listViewControl TD
+{
+ padding:3px 10px;
+ font-size:11px;
+ border-color:#D9D9D9;
+ border-style:solid;
+ border-width: 0px 1px 0px 0px;
+}
+
+/*Style defined for the Table Containing the List of Data*/
+.listViewTable
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+}
+
+.listViewTable TH.right
+{ text-align:right;
+}
+
+.listViewTable TH.centered
+{ text-align:center;
+}
+
+.listViewTable TD
+{
+ padding: 0.3em 5px;
+ background: #FFFFFF;
+ border-bottom: solid 1px #EFEFEF;
+}
+
+.listViewTable .shaded
+{
+ background:#EEEEEE;
+}
+
+.listViewTable TD.projectName
+{
+ color: #555555;
+ font-weight: bold;
+}
+
+/*Style defined for the Table Containing the Form Elements*/
+.inlineForm
+{
+ display: inline;
+}
+
+/*Style for Horizontal spacing Between Two Sets of Data
+Placed Vertically Side by Side*/
+.Gap
+{
+ display: block;
+ width: 10px;
+}
+
+/*Style for the DIV Tag Holding the Portlet*/
+.portlet
+{
+ padding: 0 0 1em 0;
+ width: 100%;
+}
+
+.portlet ul a, .portlet ul a:visited, .portlet ul a:hover
+{
+ color: #000000;
+ text-decoration: none;
+}
+
+/*Style defined for the DIV Tag Holding the Section/Page Titles*/
+.headings
+{
+ padding: 5px 0;
+ text-align: left;
+ font: bold 1em 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ color: #000000;
+}
+
+/*Style defined for all the Text Boxes*/
+.txtBox
+{
+ padding: 0.1em;
+}
+
+/*Style defined for all the Select Boxes*/
+.selectBox
+{
+ width: 100px;
+ height: 1.5em;
+}
+
+/*Style defined for all the Select Boxes with non-fixed width*/
+.selectBox2
+{
+ height: 1.5em;
+}
+
+/*Style defined for all the Submit Buttons*/
+.sbtButton
+{
+ font-size: 0.95em;
+ border: outset 1px #E8E8E8;
+ background-color: #E8E8E8;
+ padding: 0 5px;
+ margin: 0;
+}
+/*Style for the DIV Holding the Form Action Buttons*/
+.submitBar
+{
+ padding: 0 0 1em 0;
+ width: 100%;
+ text-align: center;
+}
+
+/*Style defined for the DIV Tag containing the Navigation Bar for the Data*/
+.navBar
+{
+ padding: 0 5px 0.7em 5px;
+}
+
+/*Style defined for the DIV Tag containing the Navigation Content for the Data*/
+.navTable
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+}
+
+.navTable TD
+{
+ width: 50%;
+ color: #000000;
+}
+
+.navTable TD.leftCell
+{
+ text-align: left;
+}
+
+.navTable TD.rightCell
+{
+ text-align: right;
+}
+
+.navTable TD Img
+{
+ border: 0;
+ padding: 0 5px;
+}
+
+.navTable TD A.imgLink
+{
+ text-decoration: none;
+}
+
+.navTable TD A.imgLink Img
+{
+ padding: 0 5px 0 0;
+}
+
+/*Style defined for the table containing the Note Data*/
+.note {margin:5px;}
+
+.noteTable
+{
+ width: 100%;
+ border:0;
+ font-size:90%;
+ padding: 0;
+ margin: 0;
+ border-collapse: collapse;
+}
+
+.noteTable TD
+{
+ padding: 10px 0;
+ vertical-align: top;
+}
+
+TABLE.nopad
+{
+    BORDER: 0px;
+    PADDING: 0px;
+    COLOR: black;
+}
+TR.nopad
+{
+    BORDER: 0px;
+    PADDING: 0px;
+    COLOR: black;
+}
+TD.nopad
+{
+    BORDER: 0px;
+    PADDING: 0px;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+TD.onepad
+{
+    BORDER: 0px;
+    PADDING: 1px;
+    COLOR: black;
+    TEXT-DECORATION: none
+}
+
+.noteTable TD Img
+{
+ border: 0;
+ margin: 0 5px 0 5px;
+}
+
+/*Style defined for the     DIV Tag containing the Tooltip*/
+.tooltip
+{
+ position: absolute;
+ background: white;
+ z-index: 0;
+ visibility: hidden;
+}
+
+/* Portal Zones */
+#mainPortletZone
+{
+ padding: 5px 5px 2px 5px;
+ margin: 0;
+}
+#appMenu
+{
+ width: 100%;
+ padding: 5px 0 2px 5px;
+ margin: -15px 0 0 0;
+ background-color: #dcdddd;
+}
+#appMenu2
+{
+ padding: 30px 0 0 0;
+ margin: 0 0 0 0;
+ background:#dcdddd;
+ cursor:pointer;
+}
+#coll_left,#exp_left
+{
+ height: 13px;
+ z-index: 3;
+ margin: 0;
+ padding: 0;
+ cursor:pointer;
+}
+#coll_left
+{
+  background: #dcdddd;
+}
+#exp_left
+{
+  background: #dcdddd;
+  width:10px;
+  position:relative;
+}
+/*Style defined for the DIV Tag containing the Portlet Header*/
+.portletHeader
+{
+  border: 0;
+ /* border-bottom: 2px solid #B2B2B2; */
+  border-collapse: collapse;
+  font-weight: bold;
+  color: #000000;
+  height: 1.2em;
+  width: 100%;
+  vertical-align: middle;
+}
+.portletHeader TD
+{
+  padding: 0;
+  margin: 0;
+}
+TD.portletBar, TD.portletBarFlyoutIcon
+{
+  /* background: #BBBBBB; */
+  padding:3px 0px 2px 0px;
+  width: 100%;
+  font-size:110%;
+  text-align:left;
+  white-space: nowrap;
+}
+TD.portletBarFlyoutIcon div
+{
+  background: URL("../../images/pvcorporate/icon_portlet_flyout_dashboard.gif") no-repeat center;
+  width: 16px;
+  height: 14px;
+}
+TD.portletBarFlyoutIcon .flyoutOptions
+{
+  top: 15px;
+  left: -57px;
+  width: 75px;
+}
+
+/*Style defined for the TD containing the Portlet Left Curve Image*/
+TD.portletBarLeftCurve
+{
+ /* background: #BBBBBB; */
+ padding-left: 8px;
+}
+/*Style defined for the TD containing the Portlet Right Curve Image*/
+TD.portletBarRightCurve
+{
+ /* background: #BBBBBB; */
+ padding-right: 8px;
+}
+
+/*Style defined for tables inside a Portlet*/
+.portletTable
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border-collapse: collapse;
+ background:#FFFFFF;
+}
+
+.portletTable TH
+{
+ padding: 1px 5px 3px 5px;
+ font-weight: bold;
+ color:#000000;
+ /* background-color:#DDDDDD; */
+}
+.portletTable TD
+{
+ padding: 0.3em 5px;
+ border-bottom: 1px solid #F3F3F3;
+}
+.portletTable div.progressContainer
+{
+  background-color: #98BBDB;
+  border: 1px solid #628CB4;
+  font-size:smaller;
+  padding-left: 2px;
+  text-align:left;
+}
+.portletTable div.progressContainer div
+{
+  background-color: #def;
+  padding:0 0 0 2px;
+  margin-left: -2px;
+}
+
+/*Default Style for Lists*/
+ul
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+/*Style defined for the List of Right Menu Options*/
+ul.rightMenuOptions
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ background-color: #D2DBF5;
+ display:none;
+}
+
+ul.rightMenuOptions li
+{
+ border-bottom: solid 1px #D2DBF5;
+ display:none;
+}
+
+ul.rightMenuOptions li A
+{
+ display: block;
+ padding: 0.25em 0 0.25em 10px;
+ text-decoration: none;
+ display:none;
+}
+
+ul.rightMenuOptions li A:Hover
+{
+ background-color: #99bbdd;
+ display:none;
+}
+
+/*Style defined for the TD containing the Navigation Items of the Right Menu Options*/
+.rightMenuOptionsEnd
+{
+ margin: 0;
+ font-size: 1em;
+ color: #000000;
+ border-bottom:1px solid #00578D;
+ background-color: #D2DBF5;
+ display:none;
+}
+
+/*Style defined for the TD containing the Images of the Right Menu Options*/
+.rightMenuOptionsEnd Img
+{
+ border: 0;
+ margin: 0 3px;
+ vertical-align: middle;
+ display:none;
+}
+
+.rightMenuOptions A
+{
+ text-decoration: none;
+ display:none;
+}
+
+/*Style defined for the Table of Flyout Menu Items*/
+.flyoutContainer
+{
+ border: solid 1px #000000;
+ padding: 0;
+ margin: 0;
+}
+
+/* Style defined for the List of Menu Items*/
+.menuHeader
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ color: #333333;
+ font-weight: bold;
+ background:#e1e1e1;
+ border-top:1px solid #cccccc;
+ border-bottom:1px solid #cccccc;
+ white-space: nowrap;
+ text-align:left;
+}
+
+/* Remove the bullets, and all spacing around "box" containing list items */
+ul.listMenuOptions
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ background-color: #FFFFFF;
+ white-space: nowrap;
+}
+
+ul.listMenuOptions li
+{
+ border-bottom: 1px solid #F3F3F3;
+}
+
+/* This is to turn on highlighting for the entire selected row */
+ul.listMenuOptions li A
+{
+ display: block;
+ padding: 0.5em 0 0.5em 40px;
+}
+ul.listMenuOptions li A:hover
+{
+ background:#EEEEEE;
+}
+/* for print start */
+ul.listMenuPrintOptions
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ background-color: #F5F5F5;
+}
+
+ul.listMenuPrintOptions li
+{
+ font: normal 1em Arial, Helvetica;
+ border-bottom: solid 1px #FFFFFF;
+}
+
+/* This is to turn on highlighting for the entire selected row */
+ul.listMenuPrintOptions li A
+{
+ display: block;
+ padding: 0.2em 0 0.2em 5px;
+}
+ul.listMenuPrintOptions li A:hover
+{
+ background-color: #D2DBF5;
+}
+
+/* end */
+
+.listMenuOptionsEnd
+{
+  padding: 0.5em 1em 0.25em 8px;
+  margin: 0;
+  font-size: 1em;
+  color: #000000;
+  border-bottom:1px solid #FFFFFF;
+  background-color: #F5F5F5;
+}
+
+/*   Stylesheet for Left Menu Items */
+#appMenu div.leftMenuHeader,
+#appMenu ul.leftNavItems
+{
+  background-color: #cbcccc;
+  border-top: solid 1px #dcdddd;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#appMenu div.leftMenuHeader
+{
+  background:#babbbb;
+}
+div.leftMenuHeader A,
+div.leftMenuHeader A:visited
+{
+  display: inline-block;
+  padding: 3px 3px 3px 10px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+}
+#appMenu div.leftMenuHeader span
+{
+  position: relative;
+  background: URL("../../images/pvcorporate/icon_quicklinksedit.gif") no-repeat 0% 50%;
+  left: -32px;
+  top: -6px;
+  padding: 5px 13px 5px 0;
+}
+#appMenu div.leftMenuHeader ul /* To position the flyout menu options */
+{
+  top: 5px;
+  *top: 7px;  /* need different settings in IE, so override the values for IE with a '*'.  Firefox doesn't recognoze the '*' thus skips over this line*/
+  left: 14px;
+  *left: 19px;
+  width: 160px;
+}
+
+#appMenu ul li A,
+#appMenu ul li A:visited
+{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  padding: 0.3em 0 0.3em 10px;
+}
+
+#appMenu ul.leftNavItems li
+{
+  border-bottom: 1px solid #cbcccc;
+}
+#appMenu ul.leftNavItems li A:hover
+{
+  background-color:#99bbdd;
+}
+
+#appMenu ul.leftMenuOptions
+{
+  background-color: #edeeee;
+}
+#appMenu ul.leftMenuOptions li
+{
+  border-bottom: 1px solid #edeeee;
+}
+#appMenu ul.leftMenuOptions li A,
+#appMenu ul.leftMenuOptions li A:visited
+{
+  padding-left: 20px;
+}
+#appMenu ul.leftMenuOptions li A:hover
+{
+  background-color: #99bbdd;
+}
+
+#appMenu ul.leftMenuOptions li.menuDivider
+{
+  display: block;
+  padding: 0.25em 0 0.25em 20px;
+  line-height: 1px;
+}
+#appMenu ul.leftMenuOptions li.menuDivider div
+{
+  background-color: #dcdddd;
+}
+
+ul.leftMenuOptions li.detailed a
+{
+  background: url("../../images/pvcorporate/arrow.gif") no-repeat 95%;
+  position: relative; /* To force link (hover) to behave as block element */
+  width:160px;
+}
+ul.leftMenuOptions li.detailed li a /* 'coz IE does not know child selector */
+{
+  background: none;
+}
+
+ul.leftMenuOptions ul.flyoutOptions /* To position the flyout menu options */
+{
+  top: 0;
+  left: 180px;
+  width: 160px;
+}
+ul.leftMenuOptions li.leftMenuMore A
+{
+  background: url("../../images/pvcorporate/arrow_down.gif") no-repeat center;
+  height: 5px;
+}
+/*                    End of Stylesheet for Left Menu Items                   */
+
+/*Style defined for the DIV Containing the Footer Content*/
+.ftr
+{
+ font: normal 1em 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ color: #000000;
+ text-align: center;
+}
+
+/*Style defined for the Title of the Drill Down Pages*/
+#drillDownContentTitle
+{
+ padding: 0.5em 0 0.5em 5px;
+ font-weight: bold;
+ text-align: left;
+}
+
+/*Style defined for the Title with Hyperlinks of the Drill Down Pages*/
+#drillDownContentTitle A
+{
+ color: #4D8FC3;
+ font-weight: normal;
+ text-decoration: underline;
+ margin: 0 0 0 5px;
+}
+
+/*Styles defined for the Loading Page*/
+#loading
+{
+ position: absolute;
+ margin: 0;
+ padding: 7px 50px;
+ width: 100%;
+ top: 0;
+ left: 0;
+ vertical-align:middle;
+ border-bottom: solid 2px #b7b6a8;
+ z-index: 1000;
+ background: #e0dfce;
+}
+
+#loading span 
+{
+ position :absolute;
+ top:10px;
+ left:90px;
+ font-size:110%;
+ padding:5px;
+}
+
+
+/*Added for drop down link DIV style and Table - 02-08-04 Begin*/
+.dropDownLink
+{
+ position: absolute;
+ display: none;
+ width: 100px;
+ margin: 0px;
+ padding: 0px;
+ z-index:100000;
+}
+.dropDownLinkTable, TABLE.dropDownLinkTable
+{
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ border-collapse: collapse;
+ border: 1px solid #999999;
+ background-color: #FFFFFF;
+}
+.dropDownLinkTable TH
+{
+ padding-right: 4px;
+ padding-left: 4px;
+ padding-bottom: 1px;
+ color: #444444;
+ padding-top: 1px;
+ text-decoration: none;
+ white-space: nowrap;
+ background-color: #EEEEEE;
+ border-bottom:1px solid #bbbbbb;
+ font-weight:normal;
+}
+.dropDownLinkTable TH A, .dropDownLinkTable TH A:hover, 
+.dropDownLinkTable TH A:visited, .dropDownLinkTable TH A:active
+{
+ color: #4D8FC3;
+ text-decoration: none;
+}
+
+.dropDownLinkTable a, .dropDownLinkTable a:visited
+{ 
+  color: #4D8FC3;
+  border:none;
+  text-decoration:none;
+}
+
+.dropDownLinkTable a:hover
+{ 
+  color: #4D8FC3;
+  text-decoration:underline;
+  border:none;
+}
+
+.dropDownLinkTable TD, .dropDownLinkTable TD.colorTD
+{
+ padding:1px 12px 1px 12px;
+ white-space: nowrap;
+ border:0;
+}
+
+.dropDownLinkTableOff
+{
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ border-collapse: collapse;
+}
+
+/* New List-style Dropdown Menu */
+.dropDownHeader
+{
+ padding: 0.3em 40px 0.3em 5px;
+ text-transform: uppercase;
+ background-color: #0C87B0;
+ white-space: nowrap;
+}
+
+.svgDropDownHeader
+{
+  fill:#8DA9CD; 
+}
+
+ul.dropDownOptions
+{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ background-color: #F5F5F5;
+}
+
+ul.dropDownOptions li
+{
+ border-bottom: solid 1px #EFEFEF;
+}
+
+ul.dropDownOptions li A
+{
+ display: block;
+ padding: 0.3em 5px;
+}
+
+.lightGrayText
+{
+ color: #cccccc;
+}
+
+.yellowText
+{
+ color: #fcff00;
+}
+
+.greenText
+{
+ color: #6FC361;
+}
+.blueText
+{
+ color: #4D8FC3;
+}
+.redText
+{
+ color:#FE492C;
+}
+
+.boldCriticalText
+{
+ color: #FE492C;
+ font-weight: bold;
+}
+
+.bigPlainBoldText
+{
+ font-weight: bold;
+ font-size: 1.182em;
+}
+
+.bigBoldCriticalText
+{
+ font-weight: bold;
+ color: #FE492C;
+ font-size: 1.182em;
+}
+
+.italicCriticalText
+{
+ font-weight: bold;
+ font-style:italic;
+ color: #FE492C;
+ font-size: 1.182em;
+}
+
+.italicSmallText
+{
+ font-style: italic;
+ font-size: 0.818em;
+}
+.italicText
+{
+ font-style: italic;
+}
+.plainBoldText
+{
+ font-weight: bold;
+}
+
+.smallModerateText
+{
+ color: gray;
+ font-size: 0.818em;
+}
+
+/* TIMESHEET STYLES  */
+
+.layoutTableTS
+{
+ width:100%;
+ position:relative;
+}
+
+.timesheetTable
+{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ border-collapse: collapse;
+ font-size:90%;
+ width:100%;
+}
+
+.timesheetTable TH
+{
+ font-family:'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ background-color: #CCCCCC;
+ text-align: center;
+ padding: 0em .5em .1em .5em;
+}
+
+.hiddenTHs TH
+{ background-color: #ffffff;
+}
+
+.timesheetTable TD
+{
+ font-family:Arial,helvetica;
+ font-weight: normal;
+ padding: 0em .5em .1em .5em;
+ background-color: #fff;
+}
+.timesheetTable TD.projectName
+{
+ color: #555555;
+ font-weight: bold;
+ padding-top:.1em;
+ border-top:1px solid #CCCCCC;
+ background-color:#efefef;
+}
+
+.timesheetTable INPUT
+{
+ font:100% Courier;
+ width:6em;
+}
+
+.timesheetTable INPUT.sbtButton
+{
+font: 100% 'Microsoft Sans Serif',Arial, Helvetica, sans-serif;
+margin-top:.5em;
+}
+
+.timesheetTable INPUT.checkbox
+{
+ width:auto;
+ font-size:200%;
+}
+
+.singleLinkBar
+{
+ padding: 0px 0px 0.5em 0px;
+ font-size:90%;
+}
+
+#addWorkLinksArea TD
+{
+ position:relative;
+ top:-2.5em;
+ left:30em;
+ font-size:90%;
+ padding-right:.3em;
+}
+
+.dataContainerTS TD
+{
+ display:none;
+ background-color:#f1f1f1;
+ font-size: 90%;
+ position:relative;
+ top:-3em;
+}
+
+.timesheetTable .dropDownLinkTable TD A, 
+.timesheetTable .dropDownLinkTable TD A:hover, 
+.timesheetTable .dropDownLinkTable TD A:visited, 
+.timesheetTable .dropDownLinkTable TD A:active
+{
+ background-color: #ffffff;
+}
+
+/*Added for drop down link DIV style and Table- 02-08-04 End*/
+/*Stylesheets for SelectTimeLogTemplate*/
+.timeLogTable
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+}
+.timeLogTable TH
+{
+ background-color: #CCCCCC;
+ padding: 0.3em 5px;
+ margin: 0;
+ font-weight: bold;
+ white-space: nowrap;
+}
+.timeLogTable TD
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ background-color: #F5F5F5;
+}
+/*Stylesheets for SelectTimeLogTemplate*/
+
+/*Stylesheets for Billing Detail Page*/
+.billingDetailTable
+{
+ width: 100%;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+ text-align: left;
+}
+.billingDetailTable input
+{
+ font-size: 1em;
+}
+.billingDetailTable TH
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ font-weight: bold;
+ color: #ffffff;
+ background-color: #CCCCCC;
+ white-space: nowrap;
+}
+.billingDetailTable TH.leftHeaders
+{
+ text-align: left;
+}
+.billingDetailTable TD
+{
+ padding: 0.3em 5px;
+ margin: 0;
+ background-color: #F5F5F5;
+}
+.billingDetailTable TD.bdHeading
+{
+ font-weight: bold;
+}
+
+.billingDetailTable TD.bdSubheading
+{
+ padding-left: 20px;
+}
+
+.billingDetailTable TD.bdOTMessage
+{
+ text-align: right;
+}
+
+.billingDetailTable TD.bdWarning
+{
+ font-weight: bold;
+ color: #cc0000;
+}
+/*Stylesheets for Billing Detail Page*/
+
+/* style define for scroll  area of bud_enteredit.asp */
+.budgetDataTable
+{
+ border: 0px;
+ padding: 0px;
+ margin: 0px;
+ border-collapse: collapse;
+}
+.budgetDataTable TD
+{
+ margin: 0;
+ padding: 0;
+ background-color: #F5F5F5;
+}
+.budgetDataTable TH
+{
+ padding: 0px;
+ margin: 0px;
+ font-weight: normal;
+ font-size: 0.8em;
+ background-color: #CCCCCC;
+}
+
+.budgetDataTable TD.budgetHighlight
+{
+ background-color: #AAAAAA;
+ font-weight: bold;
+ font-size: 0.8em;
+}
+.budgetDataTable.dropDownLink
+{
+ position: absolute;
+ visibility: hidden;
+ width: 100px;
+ margin: 0px;
+ padding: 0px;
+}
+.budgetDataTable.dropDownLinkTable
+{
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ border-collapse: collapse;
+ background-color: #F5F5F5;
+}
+
+.budgetDataTable.dropDownLinkTable TH A, 
+.budgetDataTable.dropDownLinkTable TH A:visited, 
+.budgetDataTable.dropDownLinkTable TH A:active
+{
+ color: #0000ff;
+ text-decoration: none;
+}
+
+.budgetDataTable.dropDownLinkTable TD.colorTD
+{
+ background-color: #F5F5F5;
+}
+.budgetDataTable .boldText
+{
+ font-weight: bold;
+ color: #000000;
+}
+
+.budgetInput
+{
+ font-size: smaller;
+ width: 40pt;
+ text-align: right;
+}
+
+.budgetInputLock
+{
+ font-size: smaller;
+ width: 40pt;
+ text-align: right;
+ background-color: #D3D3D3;
+}
+
+.subheadNumeric
+{
+ text-align:right;
+ background-color: #EEEEEE !important;
+}
+.subheadText
+{
+ text-align:left;
+ background-color: #EEEEEE !important;
+}
+
+/*Stylesheet for Notifications*/
+.notificationHeader
+{
+ padding: 0.55em 0 0.55em 10px;
+ font-weight: bold;
+ font-size: 1em;
+ color: #ffffff;
+ background: #AAAAAA;
+ cursor: pointer;
+ white-space: nowrap;
+}
+
+.notificationDetail
+{
+  background: url("../../images/pvcorporate/arrow.gif") no-repeat 1px;
+  padding: 0 7px;
+}
+
+.basicSeperator
+{
+ border-left:solid 1px #CCCCCC;
+}
+
+.flyout
+{
+  cursor: pointer;
+  z-index: 100; /* Needed because we dynamically change position to relative */
+}
+.flyout .flyoutOptions
+{
+  display: none;
+  position: absolute;
+  background-color: #edeeee;
+  border: solid 1px #666;
+  border-top: solid 1px #aaa;
+  border-left: solid 1px #aaa;
+}
+.flyout .flyoutOptions li
+{
+  border-bottom: solid 1px #edeeee !important;
+}
+.flyout ul.flyoutOptions li A, .flyout ul.flyoutOptions li A:visited
+{
+  position: relative;
+  display: block !important;
+  padding: 0.25em 8px !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  text-align: left;
+  color: #000;
+}
+.flyout ul.flyoutOptions li A:hover
+{
+  background-color: #99bbdd;
+}
+
+.notificationsFlyout
+{
+  cursor: pointer;
+  z-index: 100; /* Needed because we dynamically change position to relative */
+}
+.notificationsFlyout .notificationsFlyoutOptions
+{
+  position: absolute;
+  background-color: #edeeee;
+  border: solid 1px #666;
+  border-top: solid 1px #aaa;
+  border-left: solid 1px #aaa;
+}
+.notificationsFlyout .notificationsFlyoutOptions li
+{
+  border-bottom: solid 1px #edeeee !important;
+}
+.notificationsFlyout ul.notificationsFlyoutOptions li A, .notificationsFlyout ul.notificationsFlyoutOptions li A:visited
+{
+  position: relative;
+  display: block !important;
+  padding: 0.25em 8px !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  text-align: left;
+  color: #000;
+  white-space:nowrap;
+}
+.notificationsFlyout ul.notificationsFlyoutOptions li A:hover
+{
+  background-color: #99bbdd;
+}
+
+/*Rank Investments Background Color*/
+ div.rankBg
+ {
+  background: #CCCCCC;
+  vertical-align:middle;
+ }
+
+/*Customize Layout Screen Styles*/
+span.disabledLink
+{
+  border:outset 2px;
+  border-bottom:0;
+  font-weight:bold;
+  padding:0 5px;
+}
+a.activeLink, a.activeLink:visited
+{
+  border:outset 2px;
+  border-bottom:0;
+  padding:0 5px;
+  text-decoration:underline;
+  color:#0000ff;
+  font-weight:normal;
+  background-color: #fff;
+}
+a.activeLink:hover
+{
+  border:inset 2px;
+  border-bottom:0;
+  padding:0 5px;
+  color:#000000;
+  font-weight:bold;
+  background-color: #D2DBF5;
+  text-decoration:none;
+}
+/*Used for portlet tooltip*/
+.flyoutMnu
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: solid 1px #666;
+  border-top: solid 1px #aaa;
+  border-left: solid 1px #aaa;
+  left: 185px;
+  z-index:100;
+}
+.flyoutMnu .flyoutOptions li, .flyoutMnu .flyoutOptionsForTooltip li
+{
+  border-bottom: solid 1px #edeeee !important;
+}
+.flyoutMnu ul.flyoutOptions li A, 
+.flyoutMnu ul.flyoutOptions li A:visited, 
+.flyoutMnu ul.flyoutOptionsForTooltip li A, 
+.flyoutMnu ul.flyoutOptionsForTooltip li A:visited
+{
+  position: relative;
+  display: block !important;
+  padding: 0.25em 8px !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  text-align: left;
+  color: #003E7E;
+}
+.flyoutMnu ul.flyoutOptions li A:hover, 
+.flyoutMnu ul.flyoutOptionsForTooltip li A:hover
+{
+  background-color: #003E7E;
+  color: white;
+}
+.flyoutMnu ul.flyoutOptionsForTooltip li.detailed
+{
+  background: url("../../images/pvcorporate/arrow.gif") no-repeat 95%;
+  position: relative; /* To force link (hover) to behave as block element */
+}
+.flyoutMnu ul.flyoutOptionsForTooltip li.detailed A:hover
+{
+  background: url("../../images/pvcorporate/arrow.gif") no-repeat 95%;
+  background-color: #003E7E;
+  color: white;
+  position: relative; /* To force link (hover) to behave as block element */
+}
+
+TD.subHeader, TR.subHeader TH, TR.subHeader TD
+{
+  background-color:#F3F3F3;
+  font-weight:bold;
+  border-top:1px solid #DDDDDD;
+  border-bottom:1px solid #DDDDDD;
+}
+
+/*Alternate Style for Lists*/
+.bullets 
+{
+  padding:0 0 3px 15px;
+  background: url("../../images/pvcorporate/bullet.gif") no-repeat 5px 8px;
+  margin: 1px 0px 0px 0px;
+}
+
+/*   BEGIN Stylesheet for Wizard look & feel.                                 */
+.wizScrollingArea
+{
+ overflow: auto;
+ border: none;
+ padding: 3px;
+ height:100%;
+ width:99%;
+}
+
+.wizNav
+{ margin: 0;
+  padding: 2px 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
+.wizNav a, .wizNav a:visited, .wizNav a:active
+{ display:inline-block;
+  vertical-align: bottom;
+  text-decoration: none;
+  padding: 0 16px 3px 2px;
+  color: #ff5a00;
+  margin: 0 5px;
+  border-right: 2px solid #F5F5F5;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+.wizNav a:hover
+{ text-decoration: underline;
+  color: #ff5a00;
+  border-right: 2px groove #cccccc;
+  border-bottom: 2px groove #cccccc;
+}
+
+.wizNav #next a, .wizNav #next a:visited, .wizNav #next a:active
+{ background: URL("../../images/pvcorporate/goforward.gif") no-repeat right;
+  padding: 0 16px 1px 2px;
+}
+
+.wizNav #back a, .wizNav #back a:visited, .wizNav #back a:active
+{ background: URL("../../images/pvcorporate/goback.gif") no-repeat left;
+  padding: 0 2px 1px 16px;
+}
+
+.wizNav #finish a, .wizNav #finish a:visited, .wizNav #finish a:active
+{ background: URL("../../images/pvcorporate/gofinish.gif") no-repeat right;
+  padding: 0 16px 1px 2px;
+}
+
+.wizNav #cancel a, .wizNav #cancel a:visited, .wizNav #cancel a:active
+{ background: URL("../../images/pvcorporate/icon_close.gif") no-repeat left;
+  padding: 0 2px 1px 16px;
+}
+
+.wizNav.nextOff
+{ background: URL("../../images/pvcorporate/goforwardOFF.gif") no-repeat right;
+  color:#cccccc;
+  padding: 0 16px 1px 2px;
+}
+.wizNav.backOff
+{ background: URL("../../images/pvcorporate/gobackOFF.gif") no-repeat left;
+  color:#cccccc;
+  padding: 0 2px 1px 16px;
+}
+.wizNav.finishOff
+{ background: URL("../../images/pvcorporate/gofinishOFF.gif") no-repeat right;
+  color:#cccccc;
+  padding: 0 16px 3px 2px;
+}
+.wizNav.cancelOff
+{ background: URL("../../images/pvcorporate/gofinishOFF.gif") no-repeat left;
+  color:#cccccc;
+  padding: 0 2px 3px 16px;
+}
+/*   END Stylesheet for Wizard look & feel.                                   */
+
+/*   BEGIN Stylesheet for Service Catalog.                                    */
+.scviewTable,.scviewData
+{
+ padding: 0;
+ margin: 0;
+ border: 0;
+ border-collapse: collapse;
+ width: 100%;
+ vertical-align: top;
+}
+.scviewLPanelTable
+{
+ padding: 0px;
+ margin: 10px 0px 0px 0px;
+ border: 0;
+ border-collapse: collapse;
+ width: 100%;
+ vertical-align: top;
+}
+.scviewLPanelTable TD
+{
+ padding-bottom: 3px;
+ border: 0;
+ border-collapse: collapse;
+}
+.scLPMainLink
+{
+  color: #222255;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 1em;
+}
+a.scLPSubLink, a.scLPSubLink:active, a.scLPSubLink:visited
+{
+  color: #222255;
+  vertical-align: middle;
+  text-align: left;
+  text-decoration: none;
+  font-size: 0.900em;
+  background: URL("../../images/pvcorporate/scview_lpbullet.gif") no-repeat left;
+  padding: 10px;
+  margin: 0px 0px 0px 25px;
+  line-height:18px;
+}
+.scviewData TH
+{
+  padding: 0.3em 3px;
+  margin: 0px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.scviewData TD
+{
+  padding: 0.3em 0.3em 0.3em 2em;
+  margin: 0px;
+  vertical-align: middle;
+}
+.scviewTable TH.scviewTitleClr
+{
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.scviewTopBg
+{
+  background: URL("../../images/pvcorporate/scview_topbg.gif") repeat left -10%;
+}
+.scviewRightBg
+{
+  background: URL("../../images/pvcorporate/scview_rightbg.gif") repeat right;
+}
+.scviewBotBg
+{
+  background: URL("../../images/pvcorporate/scview_botbg.gif") repeat left;
+}
+.scviewLeftBg
+{
+  background: URL("../../images/pvcorporate/scview_leftbg.gif") repeat;
+}
+.scviewTitleBg
+{
+  background: URL("../../images/pvcorporate/scview_titlebg.gif") repeat;
+}
+.scviewTitleLSwish
+{
+  background: URL("../../images/pvcorporate/scview_titlelswipe.gif") repeat left;
+}
+.scviewTitleRSwish
+{
+  background: URL("../../images/pvcorporate/scview_titlerswipe.gif") repeat right;
+}
+.scviewServTitleBg
+{
+  background: URL("../../images/pvcorporate/scview_servtitlebg.gif") repeat;
+}
+.scviewServTitleMiscBar
+{
+  background: URL("../../images/pvcorporate/scview_servtitlemiscbar.gif") repeat;
+}
+.scviewVSplit
+{
+  background: URL("../../images/pvcorporate/vsplit.gif") repeat;
+}
+.scviewHSplit
+{
+  background: URL("../../images/pvcorporate/hsplit.gif") repeat;
+}
+.scviewDataBg
+{
+  background-color: #B9DAE5;
+}
+a.scviewBulletData, a.scviewBulletData:active, a.scviewBulletData:visited
+{
+ color: #003679;
+ text-decoration: none;
+ background: url('../../images/pvcorporate/scbullet.gif') no-repeat left;
+ padding-left: 15px;
+ font-weight: bold;
+}
+.halfgrayText
+{
+  color: #666666;
+}
+
+.detailtraypad
+{
+  padding:0px 20px 0px 0px;
+}
+/*   END Stylesheet for Service Catalog.                                      */
+
+/* Styles for Manager-type buttons */
+.pvButtonStyle IMG
+{ vertical-align:middle;
+}
+	
+.pvButtonStyle a:link{ color:#333333;text-decoration:none!important;}
+.pvButtonStyle a:hover{ color:#333333;text-decoration:none!important;}
+.pvButtonStyle a:visited{ color:#333333;text-decoration:none!important;}
+  
+.buttonActive
+{ 
+  height:16px;
+  line-height:16px;
+  border-color:#9696A6;
+  border-style:solid;
+  border-width:1px;
+  background-image:url(../../images/buttonbg.gif);
+  background-repeat: repeat-x;
+  background-color:#CBCEDE;
+  *display: inline-block;
+  padding: 0.25em;
+  padding-bottom:0.35em;
+  color:#333333;
+  font-size:1em;
+  white-space:nowrap;
+}
+ 
+.buttonHover
+{ 
+  height:16px;
+  line-height:16px;
+  border-color:#FFCE39;
+  border-style:solid;
+  border-width:1px;
+  background-image:url(../../images/buttonbg.gif);
+  background-repeat: repeat-x;
+  background-color:#CBCEDE;
+  cursor: pointer;
+  *display: inline-block;
+  padding: 0.25em;
+  padding-bottom:0.35em;
+  color:#333333;
+  font-size:1em;
+  white-space:nowrap;
+}
+ 
+.buttonDepress
+{ height:16px;
+  line-height:16px;
+  border-color:#333333 #333333 #9696A6 #9696A6;
+  border-style:solid;
+  border-width:1px;
+  background-image:url(../../images/buttonbgd.gif);
+  background-repeat: repeat-x;
+  background-color:#CBCEDE;
+  *display: inline-block;
+  padding: 0.25em;
+  padding-bottom:0.35em;
+  color:#333333;
+  font-size:1em;
+  white-space:nowrap;
+}
+ 
+.buttonDisable
+{ height:16px;
+  line-height:16px;
+  border-color:#D0D0D0;
+  border-style:solid;
+  border-width:1px;
+  background-image:url(../../images/buttonbgdis.gif);
+  background-repeat: repeat-x;
+  background-color:#F0F0F0;
+  *display: inline-block;
+  padding: 0.25em;
+  padding-bottom:0.35em;
+  color:#9E9E9E;
+  cursor:default;
+  font-size:1em;
+  white-space:nowrap;
+}
+
+.buttonGrid
+{
+  padding: 0 0.25em!important;
+}
+
+.buttonNoIcon
+{ padding:1px 0px 0px 0px;
+}
+
+#Shield
+{ display:none; 
+  background-color:Gray;
+  z-index:10100; 
+  filter:alpha(opacity=70, style=0); 
+  -moz-opacity:.70;
+  opacity:.7;
+  width:100%; 
+  position:absolute;
+  overflow:hidden;
+}
+.modal
+{ display:none;
+  z-index:10101; 
+  position:absolute; 
+  border: 2px solid #000000; 
+}
+/*End of New Style Sheet*/
+
+.pane
+{ 
+  background-color:White;
+}
+
+.actual 
+{ display:inline-block;
+  background:url('../../images/gantt_actual_bg.gif') repeat-x;
+  height:6px;
+  font-size:6px;
+  border:1px solid #999;
+}
+
+.completed 
+{ display:inline-block;
+  background:url('../../images/gantt_completed_bg.gif') repeat-x;
+  height:6px;
+  font-size:6px;
+  border:1px solid #999;}
+
+.scheduled 
+{ display:inline-block;
+  background:url('../../images/gantt_scheduled_bg.gif') repeat-x;
+  height:6px;
+  font-size:6px;
+  border:1px solid #999;}
+
+.critical 
+{ display:inline-block;
+  background:url('../../images/gantt_critical_bg.gif') repeat-x;
+  height:6px;
+  font-size:6px;
+  border:1px solid #999;}
+
+.timeperiodSegment
+{ display:inline-block;
+  width:100px;
+  overflow:hidden;
+  white-space:nowrap;
+  border-left:1px solid #cccccc;
+  text-align:center;
+}
+.timeperiodEndSegment
+{ display:inline-block;
+  width:100px;
+  overflow:hidden;
+  white-space:nowrap;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+  text-align:center;
+}
+.menuSeparator
+{ line-height:1px!important;
+  font-size:1px!important;
+  padding:0!important;
+  margin:0!important;
+  background-color:#dedede;
+}
+/* Drop Down Menu */
+.dropDownMenu
+{
+  cursor: pointer;
+  position:absolute;
+  background-color: #f9f9f9;
+  border: solid 1px #AAAAAA;
+}
+
+.dropDownMenuContainer
+{
+  display: none;
+  position:absolute;
+  z-index:1000;
+}
+
+.dropDownMenu li
+{
+  padding: 2px 5px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: left;
+  color: #000;
+  white-space:nowrap;
+  cursor:pointer;
+  border-top: 1px solid #FFFFFF;
+}
+
+.dropDownMenu li.hover
+{
+  color:#000000;
+  background-color:#AEC1D7;
+}
+
+.dropDownMenu li.selected
+{
+  background-color:#a7b9ce;
+}
+
+.dropDownMenu li.hasSubmenu
+{
+  background:url('../../images/pvcorporate/dropdownmenu_flyout_arrow.gif') no-repeat right;
+  padding-right:17px;
+}
+.dropDownMenu li.hasSubmenuhover
+{
+  background:url('../../images/pvcorporate/dropdownmenu_flyout_arrow.gif') no-repeat right;
+  color:#000000;
+  background-color:#AEC1D7;
+  padding-right:17px;
+}
+.dropDownMenu li.disabled
+{
+  color:#bbbbbb;
+}
+.dropDownMenu .menuSeparator
+{ line-height:1px!important;
+  font-size:1px!important;
+  padding:0!important;
+  margin:0 7px 0 7px!important;
+  background-color:#AAAAAA;
+  border:none;
+}
+
+/* DISCUSSION GROUPS STYLES */
+TABLE.dgselsubject
+{
+  width:100%;
+}
+
+.hiddenColumn
+{
+  border: none!important;
+}
+
+/* Multi-line Hover Text */
+.pvtooltip
+{ 
+  position: absolute;
+  display: none;
+  background-color : #ffffe1;
+  border:solid 1px black;
+  padding:3px 3px;
+  z-index: 999;
+  white-space:nowrap;
+}
+
+
+/* Data Picker Plus Control (the mini UI, not the full Picker)*/
+.pickerplusSelectionInvalid
+{
+  background:url('../../images/pvcorporate/icon_invalid.gif') no-repeat top right;
+}
+
+.pickerplusLoading
+{
+  background:url('../../images/pvcorporate/icon_loading_sm.gif') no-repeat top right;
+}
+
+
+table.pickerplusmain 
+{
+  padding :0px;
+  margin:0px;
+}
+
+.pickerplusmain td
+{
+  padding:0px;
+  margin:0px;
+  white-space:nowrap;
+}
+
+.pickerplusmaingrid INPUT 
+{
+  position:relative;
+  top:-3px;
+  background-color: #FFFFFF;
+}
+
+
+.pickerplusmain SPAN  
+{
+  padding-right:4px;
+  padding-left:3px;
+  padding-bottom:3px;
+  margin-left:-2px; 
+}
+*:first-child+html .pickerplusmain SPAN {padding-top:2px;} /* Hack to get the padding right in IE7 */
+*TABLE.pickerplusmain INPUT {margin-right:0px;}
+
+/* Styles for Data Picker Plus Drop Downs */
+.pickerplus
+{
+  border: 1px solid #f2d756;
+  cursor: pointer;
+  position:absolute;
+  background-color: #FFFFE0;
+}
+
+.pickerplusContainer
+{
+  display:none;
+  z-index:1000;
+  position:absolute;
+}
+
+.pickerplusContainerScroll
+{
+  overflow-y:scroll;
+  overflow-x:hidden; 
+  display:none;
+  z-index:1000;
+  position:absolute;
+}
+
+.pickerplus td, .pickerplus li
+{
+  text-decoration: none;
+  font-weight: normal;
+  text-align: left;
+  color:#000000;
+  white-space:nowrap;
+  cursor:pointer; 
+}
+
+.pickerplus li
+{
+  font-size:90%;
+  color:#555;
+  padding:1px 6px;
+}
+
+.pickerplus td.last
+{
+  border-top:1px solid #f2d756;
+}
+
+.pickerplus tr.hover
+{
+  color:#000000;
+  background-color:#f2d756;
+}
+
+.pickerplus tr.exhover
+{
+  color:#000000;
+  background-color:#999999;
+}
+
+.pickerplus tr.selected
+{
+  background-color:#F1F58B;
+}
+
+.pickerplus A 
+{
+  padding:2px 0px 2px 10px;
+  font-size:1em;
+  color:#000000;
+  text-decoration:none;
+  display:inline-block;
+  width:100%;
+}
+
+.pickerplus img
+{  
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.pickerpluserror
+{
+  position:absolute;
+  background-color:#FFF0F5;
+  border:1px solid #FE492C;
+  filter:alpha(opacity=85, style=0); 
+  -moz-opacity:.85;
+}
+
+/* Styles for the zero space buttons (c# class ZeroSpaceButton.cs) */
+.zerospacebutton
+{
+  margin-left:0px!important;
+  padding:0px!important;
+  position:relative!important;
+  top:1px!important;
+}
+*SPAN.zerospacebutton SPAN {position:relative;left:-1px;border-left:0;}
+
+.zerospacebuttongrid
+{
+  margin-left:0px!important;
+  padding:0px!important;
+}
+
+#pv_datapickerplus_editor_div
+{
+  background:none!important;
+  border:none!important;
+}
+
+.ddMenuAuxAction
+{ 
+  text-decoration: none;
+  color:#000000;
+}
+
+/* HTML-style dropdown*/
+.htmlStyleSelectList, .htmlStyleSelectList A, 
+.htmlStyleSelectList A:hover 
+{ 
+  color:#000000;
+  text-decoration:none;
+}
+
+.htmlStyleSelectListActive, .htmlStyleSelectListInactive
+{ border:1px solid #7f9db9;
+  background:#ffff00 url('../../images/icon_dropdown.gif') no-repeat center right;
+  padding:1px 17px 1px 2px!important;
+  white-space:nowrap;
+}
+
+.htmlStyleSelectListHover, .htmlStyleSelectListInactiveHover
+{ border:1px solid #7f9db9;
+  background:#ffff00 url('../../images/icon_dropdown_hover.gif') no-repeat center right;
+  padding:1px 17px 1px 2px!important;
+  white-space:nowrap;
+}
+
+.htmlStyleSelectListInactive, .htmlStyleSelectListInactiveHover
+{ background-color:#ffffff;
+}
+
+.htmlStyleSelectListDisabled
+{ 
+  background-color:#EEEEEE;
+  border-color:#D0D0D0;
+  border-style:solid;
+  border-width:1px;
+  background:#F0F0F0 url('../../images/icon_dropdown_hover.gif') no-repeat center right;
+  color:#9E9E9E;
+  padding:1px 17px 1px 2px!important;
+  cursor:default;
+  font-size:1em;
+  white-space:nowrap;
+}
+
+#lc_main{
+	padding:10px 20px;
+}
+
+#lc_main h1{
+	margin:0px 0px 10px 0px;
+}
+
+#lc_main h2, #lc_main h3{
+	font-size:14px;
+	margin:10px 0px;
+}
+
+#lc_entityLink{
+	float:left;
+	margin: 5px 0px 10px 0px;
+}
+
+
+#lc_navLinks{
+	white-space:nowrap;
+	float:right;
+	margin: 5px 0px  10px 0px;
+}
+
+#lc_entityLink img{
+	vertical-align:middle;
+}
+
+#lc_navLinks img{
+	vertical-align:middle;
+}
+
+.lc_stepBox{
+  clear:both;
+  border-width:1px;
+  border-style:solid;
+  border-color:#754D24;
+  padding:10px;
+  background-image:url(../../images/pvcorporate/lc_background.png);
+  background-position:top;
+  background-repeat:repeat-x;
+  background-color:#F9F6E2;
+}
+
+.lc_stepBox img, .lc_infoBox img, .lc_alertBox img{
+	vertical-align:middle;
+}
+
+.lc_stepBoxTitle{
+	font-size:16px;
+}
+
+.lc_buttonTray{
+	padding:10px 0px;
+}
+
+.lc_altAction{
+	border-width:1px 0px 0px 0px;
+  border-style:dotted;
+  border-color:#754D24;
+}
+
+.lc_infoBox{
+  margin-top:15px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#B3B2B3;
+  padding:10px;
+  background-image:url(../../images/pvcorporate/lc_altbackground.png);
+  background-position:top;
+  background-repeat:repeat-x;
+  background-color:#f3f5f7;
+}
+
+.lc_infoBoxTitle{
+	color:#999999;
+	font-size:14px;
+}
+
+.lc_alertBox{
+  margin-top:15px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#cc1100;
+  padding:10px;
+}
+
+.lc_alertBoxTitle{
+	color:#600000;
+	font-size:14px;
+}
+
+.pvPopupArrow 
+{
+display: inline-block;
+position:absolute;
+width: 0;
+height: 0;
+margin-top: 3px;
+margin-left: 2px;
+vertical-align: top;
+border-right: 7px solid #474747;
+border-top: 7px solid transparent;
+border-bottom: 7px solid transparent; }
+
+.ui-button-text-icon-primary  .ui-button-icon-primary.ui-icon-play {
+left: 0.8em;
+}
+
+/* portlet table updates */
+.portletHeader tr td, #mainPortletZone .portletHeader tr td {
+  color: white;
+  background: #003E7E;
+  background: -webkit-gradient(linear, left top, left bottom, from(#003E7E), to(#516CA0));
+  background: -moz-linear-gradient(top, #003E7E, #516CA0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003E7E', endColorstr='#516ca0');
+  zoom: 1;
+}
+.portletTable { border-bottom: 1px solid #DFDFDF; }
+.portletTable tr th,
+.portletTable tr:first-child td {
+  color: #285D89;
+  font-size:11px;
+  padding:4px;
+  border: 1px solid #A3A3A3;
+  border-bottom: #555;
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  /*text-align: left !important;*/
+  height: 16px;
+  background: #E2E8EF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F0F3F5), to(#E2E8EF));
+  background: -webkit-linear-gradient(top, #F0F3F5, #E2E8EF);
+  background: -moz-linear-gradient(top, #F0F3F5, #E2E8EF);
+  /*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F3F5', endColorstr='#E2E8EF'); */
+  background-image: -ms-linear-gradient(top, #F0F3F5 0%, #E2E8EF 100%);
+  background-image: linear-gradient(to bottom , #F0F3F5 0%, #E2E8EF 100%);
+}
+.portletTable tr th a,
+.portletTable tr:first-child td a {
+  color: #285D89;
+  text-decoration: none;
+}
+.portletTable tr th a .sort-indicator-asc,
+.portletTable tr:first-child td a .sort-indicator-asc {
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  width: 0px;
+  border-right: 3px solid rgba(0, 0, 0, 0);
+  border-left: 3px solid rgba(0, 0, 0, 0);
+  border-bottom: 5px solid #6A8EBE;
+}
+.portletTable tr th a .sort-indicator-desc,
+.portletTable tr:first-child td a .sort-indicator-desc {
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  width: 0px;
+  border-right: 3px solid rgba(0, 0, 0, 0);
+  border-left: 3px solid rgba(0, 0, 0, 0);
+  border-top: 5px solid #6A8EBE;
+}
+.portletTable td {
+  background: #EEE;
+  border: 1px solid #DFDFDF;
+  border-width: 1px 0 0 1px;
+  padding: 2px 10px;
+  height: 20px;
+  font-family:Arial;
+  font-size:11px;
+  line-height:14px;
+}
+.portletTable td:hover{
+  background: #F1EEEA;
+  border: 1px solid #CCC;
+}
+.portletTable td.row-highlighted {
+  background-color: #C4D4E6;
+}
+.portletTable td.active, .portletTable td.active:hover {
+  border: 1px solid #85B3D6;
+  background-color: #C4D4E6;
+  box-shadow: inset 0px 0px 8px 1px rgba(133, 179, 214, 0.5);
+  -webkit-box-shadow: inset 0px 0px 8px 1px rgba(133, 179, 214, 0.5);
+  -moz-box-shadow: inset 0px 0px 8px 1px rgba(133, 179, 214, 0.5);
+}
+.portletTable td.row-highlighted:hover {
+  background-color: #B7CBE1;
+  border: 1px solid #CCC;
+}

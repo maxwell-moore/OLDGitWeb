@@ -1,0 +1,185 @@
+/*New Style Sheets Starts Here*/
+/* PRINT VERSION: styles created for pvcorporate */
+@page {
+  size: landscape;
+}
+
+@page :left {
+  margin-left: 0.25in;
+  margin-right: 0.25in;
+}
+
+@page :right {
+  margin-left: 0.25in;
+  margin-right: 0.25in;
+}
+
+/* start: from stylepv_new.css */
+body
+{
+ margin: 0;
+ font: normal 76% Arial, Helvetica;
+ color: black;
+ line-height: 1.2em;
+ background-color: #DAE6EA;
+ font-variant: normal;
+ font-stretch: normal;
+}
+A.backLink, A.backLink:visited, a.backLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/goback.gif") no-repeat left bottom;
+ float:left;
+ text-decoration: none;
+ color: #ff5a00;
+}
+A.leftFloatLink, A.leftFloatLink:visited, a.leftFloatLink:active
+{
+  padding: 0px;
+  float: left;
+  height: 21px;
+}
+A.addLink, A.addLink:visited, a.addLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/add_sm.gif") no-repeat left 40%;
+ float:left;
+ text-decoration: none;
+ padding-right: 10px;
+}
+A.removeLink, A.removeLink:visited, a.removeLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/delete_sm.gif") no-repeat left 40%;
+ float:left;
+ text-decoration: none;
+ padding-right: 10px;
+}
+A.closeLink, A.closeLink:visited, a.closeLink:active
+{
+ padding-left: 16px;
+ background: URL("../../images/pvcorporate/icon_close.gif") no-repeat left;
+ float:left;
+ text-decoration: none;
+ color: #ff5a00;
+}
+A.moreLink, A.moreLink:visited, a.moreLink:active
+{
+ padding-right: 14px;
+ background: URL("../../images/pvcorporate/more_sm.gif") no-repeat right bottom;
+ float: left;
+ text-decoration: none;
+ color: #ff5a00;
+}
+.flyoutMnu ul.flyoutOptions li A, .flyoutMnu ul.flyoutOptions li A:visited
+{
+  position: relative;
+  display: block !important;
+  padding: 0.25em 8px !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  text-align: left;
+  color: #000;
+  float: left;
+  width: 140px;
+}
+.flyoutMnu ul.flyoutOptionsForTooltip li A, .flyoutMnu ul.flyoutOptionsForTooltip li A:visited
+{
+  position: absolute;
+  display: block;
+  padding: 0.25em 8px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: left;
+  color: #000;
+  float: left;
+}
+.menuHeader
+{
+ padding: 0.55em 0 0.55em 40px; /* Left padding is absolute size since arrow graphic does not grow */
+ font: bold 0.818em Verdana;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ background: #0C87B0 5px 50% no-repeat; /* Absolute left pos, middle vertical pos */
+ float: left;
+ width: 100%;
+}
+.flyout ul.flyoutOptions li A, .flyout ul.flyoutOptions li A:visited
+{
+  position: relative;
+  display: block !important;
+  padding: 0.25em 8px !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  text-align: left;
+  color: #000;
+  float: left;
+  white-space: nowrap;
+}
+
+/* Portal Zones */
+/* Rangavs@fusiontech.com: created to hide left and right menus while printing*/
+#appMenuZone,#userMenuZone,#coll_left,#coll_right
+{
+ display: none;
+}
+/* end: from stylepv_new.css */
+
+/* start: from dashboard.css */
+.watchListTitleHeaderLineLeft
+{
+  margin:5px 5px 20px 0; 
+  border-bottom: 1px solid #888; 
+  width: 10px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+.watchListTitleBigHeaderText
+{
+  margin: 13px 0 20px 0;
+  font-size: 2em;
+  color: #333;
+  float: left;
+  height: 20px;
+  padding-top: 2px;
+}
+.watchListTitleBarFlyoutIcon
+{
+  background: URL(../../images/pvcorporate/icon_portlet_flyout_dashboard.gif) no-repeat center;
+  width: 27px;
+  height: 20px;
+  padding-bottom: 1px;
+  margin-bottom: -6px;
+  float: right;
+}
+.progressBarBg, .progressBarBgSmall
+{
+  float:left;
+}
+/* end: from dashboard.css */
+
+/* start: from stylepvbanner.css */
+#TopLinksMenu a 
+{
+  background:url("../../images/pvcorporate/linetile10.gif") repeat-x left bottom;      
+  padding:0px 15px 0px 15px;
+  color:#000;
+  text-decoration:none;
+  float:left;
+  height: 15px;
+}
+/* end: from stylepvbanner.css */
+
+/* start: from tabs.css */
+ul.leftTabs li A, ul.leftTabs li A:visited,
+ul.subTabs li A, ul.subTabs li A:visited
+{ position: relative;
+  display: block;
+  color:#000000;
+  font-weight:bold;
+  text-decoration:none;
+  padding: 4px 5px 3px 5px;
+}
+/* end: from tabs.css */
+/*End of New Style Sheet*/
